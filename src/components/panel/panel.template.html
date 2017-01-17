@@ -1,0 +1,16 @@
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{$ctrl.title}}</h3>
+  </div>
+  <div class="panel-body">
+    <div data-ng-repeat="item in $ctrl.itens track by $index">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <item target="item"></item>
+      </div>
+    </div>
+    <h3>Selected Itens:</h3>
+    <ul data-ng-repeat="selectedItem in $ctrl.selectedItens track by $index">
+      <li>{{selectedItem.name}}</li>
+    </ul>
+  </div>
+</div>

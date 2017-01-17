@@ -1,0 +1,7 @@
+{
+  "name": "angular-component-sample",
+  "dependencies": {
+    "angular": "1.5.9",
+    "bootstrap": "^3.3.7"
+  }
+}
